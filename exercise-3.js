@@ -3,7 +3,7 @@ var peran = 'kesatria';
 
 if(nama == '') {
   console.log('nama harus diisi');
-} else if(nama != '' && peran == '' || peran != 'kesatria' || peran != 'tabib' || peran != 'penyihir') {
+}else if(nama != '' && peran == '' || peran != 'kesatria' || peran != 'tabib' || peran != 'penyihir') {
   console.log('Halo '+ nama+ ', ' + "Pilih peranmu untuk memulai game!");
 }else if (nama != '' && peran == 'kesatria') {
   console.log('Halo '+ peran+ ' ' + nama + ','+' kamu dapat menyerang dengan senjatamu.');

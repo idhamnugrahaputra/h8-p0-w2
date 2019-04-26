@@ -10,7 +10,7 @@ function konversiMenit(menit) {
 }
 
 // TEST CASES
-console.log(konversiMenit(63)); 
+console.log(konversiMenit(63));
 console.log(konversiMenit(124));
 console.log(konversiMenit(53));
 console.log(konversiMenit(88));

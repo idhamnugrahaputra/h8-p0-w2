@@ -1,29 +1,22 @@
 //exercise 1
-MAKE AND SAVE "VARIABLE mass of object"
-INPUT NUMBER AND SAVE IN VARIABLE "mass of object (kg)"
-MAKE AND SAVE "VARIABLE acceleration of object"
-INPUT NUMBER AND SAVE IN VARIABLE "acceleration of object (m/s2)"
-COMPUTE "FIRST VARIABLE" multiply by "SECOND VARIABLE"
+MAKE AND SAVE "VARIABLE mass of object" with value equals six hundred
+MAKE AND SAVE "VARIABLE acceleration of object" with value equals two
+COMPUTE " VARIABLE mass of object " multiply by " VARIABLE acceleration of object "
 SAVE previous computation result
 SHOW the computation result
 
 //exercise 2
-MAKE AND SAVE " VARIABLE first"
-INPUT IN VARIABLE FIRST AND SAVE"equals four"
-MAKE AND SAVE " VARIABLE second"
-INPUT IN VARIABLE FIRST AND SAVE"equals one hundred"
-MAKE AND SAVE " VARIABLE third"
-INPUT IN VARIABLE FIRST AND SAVE "equals four hundred"
-MAKE AND SAVE VARIABLE YEAR "for inputing any number of year"
+MAKE AND SAVE " VARIABLE first" equals four
+MAKE AND SAVE " VARIABLE second" equals one hundred
+MAKE AND SAVE " VARIABLE third" equals four hundred
+MAKE VARIABLE YEAR "for inputing any number of year"
 MAKE AND SAVE CONDITION :
- if (VARIABLE YEAR MODULUS VARIABLE FIRST EQUALS ZERO OR VARIABLE YEAR MODULUS VARIABLE SECOND EQUALS ZERO OR VARIABLE YEAR MODULUS VARIABLE THIRD EQUALS ZERO)
+ if (VARIABLE YEAR MODULUS VARIABLE FIRST EQUALS EQUALS ZERO OR VARIABLE YEAR MODULUS VARIABLE SECOND EQUALS EQUALS ZERO OR VARIABLE YEAR MODULUS VARIABLE SECOND NOT EQUALS ZERO OR VARIABLE YEAR MODULUS VARIABLE THIRD EQUALS EQUALS ZERO)
  DISPLAY "leap year"
- if not Else ()
- DISPLAY "not leap year"
+ Else DISPLAY "not leap year"
 
  //exercise 3
- MAKE AND SAVE "VARIABLE number of clothes"
- INPUT IN "VARIABLE number of clothes" AND SAVE EQUALS TWENTY
+ MAKE AND SAVE "VARIABLE number of clothes" equals twenty
  Looping use for (VARIABLE "I" equals one AND VARIABLE "I" smaller equals to "VARIABLE number of clothes" AND VARIABLE"I" equals VARIABLE "I" add one)
  MAKE AND SAVE CONDITION :
  if (VARIABLE "I" EQUALS "VARIABLE number of clothes")
@@ -32,11 +25,10 @@ MAKE AND SAVE CONDITION :
  DISPLAY "The washing machine still waiting or still off"
 
 //exercise 4
-MAKE AND SAVE " VARIABLE STUDENT"
-INPUT RESULT STUDENT IN VARIABLE STUDENT AND SAVE
-looping / for (VARIABLE"I" equals one AND VARIABLE smaller equals to VARIABLE STUDENT AND VARIABLE"I" equals VARIABLE "I" add one)
+MAKE AND SAVE " VARIABLE STUDENT" equals fourty
+looping use 'for' (VARIABLE "I" equals one AND VARIABLE "I" smaller equals VARIABLE STUDENT AND VARIABLE"I" equals VARIABLE "I" add one)
 MAKE AND SAVE CONDITION :
 if (VARIABLE "I" EQUALS "long nails")
 DISPLAY "punished"
-if not use Else()
+if not use 'Else'()
 DISPLAY "praise"

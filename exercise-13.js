@@ -1,21 +1,16 @@
 function xo(str) {
-  var x = []
-  var o = []
-  var newStr = str.split('')// split
-
-  for (var i = 0; i < newStr.length; i++){
-    if (newStr[i] == 'x'){
-      x.push(newStr[i])
-    }
-
-    if (newStr[i] == 'o') {
-      o.push(newStr[i])
+  var x = 0;
+  var o = 0;
+  for (var i = 0; i <= str.length; i++) {
+    if (str[i] == 'x') {
+      x += 1
+    }else if (str[i] == 'o') {
+      o += 1
     }
   }
-
-  if (x.length == o.length) {
+  if (x == o) {
     return true
-  } else {
+  }else {
     return false
   }
 }

@@ -1,6 +1,6 @@
-var tanggal = 40;
+var tanggal = 29;
 var bulan = 8;
-var tahun = 89374589374;
+var tahun = 1950;
 
 switch (true) {
   case (tanggal <= 0 || tanggal >= 32):
